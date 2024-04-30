@@ -1,0 +1,94 @@
+.top-right {
+  position: absolute;
+  top: 15%;
+  right: 10vw;
+}
+
+.container-text {
+  position: relative;
+  text-align: left;
+  color: #36454F;
+}
+
+/* Scroll on TERM OF USE */
+/* width */
+.ToU::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.ToU::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 30px;
+}
+
+/* Handle */
+.ToU::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+.ToU::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .ToU::-webkit-scrollbar {
+    width: 10px;
+  }
+}
+
+#repair-text {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.u-palette-1-base {
+  background-color: #36454F !important;
+}
+
+.u-border-palette-1-base {
+  border-color: #36454F !important;
+}
+
+.u-btn {
+  background-color: #36454F !important;
+}
+
+.u-palette-3-base {
+  background-color: #36454F !important;
+}
+
+.u-palette-3-light-2 {
+  background-color: #7da7c1 !important;
+}
+

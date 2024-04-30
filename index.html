@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="emerald">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/1be080bd08.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body style="margin: 0px; padding: 0;">
+  <div class="navbar bg-base-100">
+    <div class="navbar-start ">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="/properties/properties.html">Properties</a></li>
+          <!-- <li>
+                    <a>Pages</a>
+                    <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                    </ul>
+                </li> -->
+          <li><a href="/about/AboutUs.html">About Us</a></li>
+        </ul>
+      </div>
+      <a href="index.html" class="btn btn-ghost normal-case sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl font-thin">WORK
+        FROM OFFICE</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1" style="z-index: 4;">
+        <li><a href="/properties/properties.html">Properties</a></li>
+        <li tabindex="0">
+          <!-- <details>
+                    <summary>Pages</summary>
+                    <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                    </ul>
+                </details> -->
+        </li>
+        <li><a href="./about/AboutUs.html">About Us</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn" onClick="document.getElementById('middle').scrollIntoView();">Tour</a>
+    </div>
+  </div>
+
+  <div class="section-1 margin-auto container-text">
+    <img src="asset/1.png" alt="home" style="width: 100%; padding: 0 0px; height: auto;">
+    <div class="top-right font-medium text-xl text-right sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl items-end"
+      style="font-family: 'Mulish', sans-serif;">
+      <img src="asset/logo.png" alt="logo" style="width: 20%; max-width: 20%; margin-left: 80%;">
+      Beautiful Workspace <br>with Fully Furnished<br><br>
+      <div class="max-md:invisible md:text-base lg:text-lg xl:text-xl 2xl:text-3xl font-thin">Best Property with
+        Family-friendly Environment</div>
+    </div>
+
+  </div>
+
+  <div class="grid justify-items-center" id="middle">
+    <div class="mt-16 sm:mt-20 md:24 lg:mt:24 xl:mt-32 2xl:mt-32"
+      style="font-family: 'Mulish', sans-serif; color: darkgoldenrod;">Welcome to Work From Office</div>
+    <div class="mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold"
+      style="font-family: 'Mulish', sans-serif;">PROPERTY OVERVIEW</div>
+
+    <div class="flex mt-12 sm:mt-12 md:mt-14 lg:mt-14 xl:mt-16 2xl:mt-20 h-3/4" style="width: 80%; ">
+      <img class="rounded-3xl" src="asset/2.jpg" alt="" style="width: 50%; object-fit: cover;">
+      <div style="width: 50%; margin-left: 5vw;"
+        class="mt-0 items-center inline 2xl:mt-24 xl:mt-12 lg:mt-10 md:mt-6 sm:mt-5">
+        <p class="text-sm sm:text-sm md:text-base lg:text-xl xl:text-3xl 2xl:text-4xl font-medium">A Dream Working Space
+        </p>
+        <p class="mt-5 text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl ">
+          Discover the epitome of productivity and luxury in this remarkable property. Elevate your workdays with an
+          environment meticulously designed to inspire creativity and enhance efficiency, ensuring that every moment
+          spent here is a step closer to your aspirations.</p>
+      </div>
+    </div>
+
+    <div class="flex mt-12 sm:mt-16 md:mt-14 lg:mt-12 xl:mt-10 2xl:mt-8 h-3/4" style="width: 80%; ">
+      <div style="width: 50%; margin-right: 5vw;" class="mt-0 items-center inline 2xl:mt-24 xl:mt-16 lg:mt-12">
+        <p class="text-sm sm:text-sm md:text-base lg:text-xl xl:text-3xl 2xl:text-4xl font-medium">No-Compriomise
+          Quality</p>
+        <p class="mt-5 text-xs sm:text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl ">
+          Rest assured, we prioritize property quality above all else, employing rigorous checks and standards to
+          guarantee an impeccable experience. Our unwavering dedication ensures that every detail is perfected, leaving
+          no room for compromise.</p>
+      </div>
+      <img class="rounded-3xl" src="asset/3.jpg" alt="" style="width: 50%; object-fit: cover;">
+    </div>
+  </div>
+
+  <div class="mb-28">
+    <div class="grid justify-items-center">
+      <div class="mt-16 sm:mt-20 md:24 lg:mt:24 xl:mt-32 2xl:mt-32"
+        style="font-family: 'Mulish', sans-serif; color: darkgoldenrod;">Apartio With Best Deals & Favours</div>
+      <div class="mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold"
+        style="font-family: 'Mulish', sans-serif;">SMART AMENITIES</div>
+    </div>
+
+    <section
+      class="w-full flex gap-8 flex-wrap justify-center 2xl:h-screen py-12 sm:py-12 md:py-14 lg:py-14 xl:py-16 2xl:py-20">
+      <div class="card w-72 2xl:w-1/4 bg-base-100 shadow-xl">
+        <figure><img src="asset/7.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title" style="font-family: 'Mulish', sans-serif;">Business Meetings & Event Hall</h2>
+          <p style="font-family: 'Mulish', sans-serif;">
+            Rest assured, our well-equipped meeting room and spacious event hall are ready to exceed your expectations.
+          </p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card w-72 2xl:w-1/4 bg-base-100 shadow-xl">
+        <figure><img src="asset/4.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title" style="font-family: 'Mulish', sans-serif;">Fully Furnished</h2>
+          <p style="font-family: 'Mulish', sans-serif;">
+            Our fully furnished business room is thoughtfully equipped to cater to all your professional requirements
+            and ensure a comfortable and productive stay.</p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+      <div class="card w-72 2xl:w-1/4 bg-base-100 shadow-xl">
+        <figure><img src="asset/5.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title" style="font-family: 'Mulish', sans-serif;">24/7 Security</h2>
+          <p style="font-family: 'Mulish', sans-serif;">
+            We provide round-the-clock security to ensure your safety and peace of mind at all times.</p>
+          <div class="card-actions justify-end">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+  <footer class="footer p-10 bg-base-200 text-base-content">
+    <div>
+      <span class="footer-title">Services</span>
+      <!-- <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a>  -->
+      <a class="link link-hover">Marketing</a>
+      <a class="link link-hover">Advertisement</a>
+    </div>
+    <div>
+      <span class="footer-title z-0">Company</span>
+      <a class="link link-hover" href="/properties/properties.html">Properties</a>
+      <a class="link link-hover" href="/about/AboutUs.html">About us</a>
+      <a class="link link-hover" href="mailto: marketing@arcproperty.id">Contact</a> 
+      <!-- <a class="link link-hover">Press kit</a> -->
+    </div>
+    <div>
+      <span class="footer-title">Legal</span>
+      <a class="link link-hover" href="TermsOfUse.html">Terms of use</a>
+      <a class="link link-hover" href="PrivacyOfPolicy.html">Privacy policy</a>
+      <a class="link link-hover" href="CookiesPolicy.html">Cookie policy</a>
+    </div>
+  </footer>
+
+  <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+    <div class="items-center grid-flow-col">
+      <img width="40" height="40" src="asset/logo.png" alt="">
+      <p>ARC Industries Ltd.</p>
+    </div>
+    <div class="md:place-self-center md:justify-self-end">
+      <div class="grid grid-flow-col gap-4">
+        <a href="https://www.instagram.com/arc.propertyid/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24" viewBox="0 0 448 512">
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+          </svg></a>
+        <a href="https://www.tiktok.com/@arcproperty" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+            height="24" viewBox="0 0 448 512">
+            <style>
+              svg {
+                fill: #152237
+              }
+            </style>
+            <path
+              d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+          </svg></a>
+        <a href="https://www.youtube.com/@ARCproperty-id" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+            width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path
+              d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+            </path>
+          </svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+
+</html>
